@@ -152,7 +152,7 @@ public class CommonActivity extends AppCompatActivity {
 			case FLAG_GUIDE_DICTIONARY_VASSONIC_SAMPLE:
 				ft.add(R.id.container_framelayout, mAgentWebFragment = VasSonicFragment.create(mBundle = new Bundle()), AgentWebFragment.class.getName());
 				mBundle.putLong(PARAM_CLICK_TIME, getIntent().getLongExtra(PARAM_CLICK_TIME, -1L));
-				mBundle.putString(AgentWebFragment.URL_KEY, "http://mc.vip.qq.com/demo/indexv3");
+				mBundle.putString(AgentWebFragment.URL_KEY, "http://wxtest.woosleep.cn/homeApp?token=eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2MDkxMzhlYTc5MDJjM2I3MTIwZmFiMTk5YzgxYmFkMSIsInN1YiI6IjE4MDE3NzE5NzU4IiwiaXNzIjoiend5IiwiaWF0IjoxNjI2NDE2NTQwLCJleHAiOjE2MjkwMDg1NDB9.EjVgbumcYbfi_fxJSyt9K6VrbxM0uPyHpnvqkgzX1C0&menu=health");
 				break;
 			default:
 				break;

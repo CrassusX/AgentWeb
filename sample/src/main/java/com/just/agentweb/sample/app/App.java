@@ -56,14 +56,14 @@ public class App extends Application {
         super.attachBaseContext(base);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
             // 安卓9.0后不允许多进程使用同一个数据目录
-            String processName = ProcessUtils.getCurrentProcessName(base);
-            if (!base.getApplicationContext().getPackageName().equals(processName)) {
-                try {
-                    WebView.setDataDirectorySuffix(processName);
-                } catch (Throwable throwable) {
-                    throwable.printStackTrace();
-                }
-            }
+//            String processName = ProcessUtils.getCurrentProcessName(base);
+//            if (!base.getApplicationContext().getPackageName().equals(processName)) {
+//                try {
+//                    WebView.setDataDirectorySuffix(processName);
+//                } catch (Throwable throwable) {
+//                    throwable.printStackTrace();
+//                }
+//            }
         }
     }
 

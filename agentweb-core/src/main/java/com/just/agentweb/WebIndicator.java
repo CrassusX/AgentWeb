@@ -55,7 +55,7 @@ public class WebIndicator extends BaseIndicatorView implements BaseIndicatorSpec
     /**
      * 默认匀速动画最大的时长
      */
-    public static final int MAX_UNIFORM_SPEED_DURATION = 8 * 1000;
+    public static final int MAX_UNIFORM_SPEED_DURATION = 8 * 10000;
     /**
      * 默认加速后减速动画最大时长
      */

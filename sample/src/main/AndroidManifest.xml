@@ -21,6 +21,7 @@
         android:logo="@mipmap/app_logo"
         android:roundIcon="@mipmap/app_logo"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/BaseAppTheme">
         <activity android:name="com.just.agentweb.sample.activity.MainActivity">
             <intent-filter>
